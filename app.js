@@ -1,13 +1,13 @@
-var name = prompt("what is your name?") ;
+let name = prompt("what is your name?") ;
 alert( 'welcome  ' + name +'  to our web site ') ;
 
 console.log( "your name is  " +name)
 
-var country = prompt("Our website is about to take you on an introductory tour of Jordan, but first where are you from ?" ) ;
+let country = prompt("Our website is about to take you on an introductory tour of Jordan, but first where are you from ?" ) ;
 
 console.log( " you are from  "+country) ;
 
-var eat = prompt( "have you ever try to eat mansaf our local dish ^_* ?")
+let eat = prompt( "have you ever try to eat mansaf our local dish ^_* ?")
 
  console.log("have you ever try to eat mansaf?  " +eat) ;
 
@@ -18,7 +18,7 @@ if(eat === "yes"){
   alert(" I advise you to taste it as soon as you arrive in Jordan, you will not regret it, believe me") 
 }
 
-var come = prompt("do you want to come to jordan ? ") ;
+let come = prompt("do you want to come to jordan ? ") ;
 
 if(come === "yes"){
   alert("you are welcome "+name) ;
